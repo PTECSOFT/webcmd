@@ -1,12 +1,2 @@
 # webcmd
-a command line written in html and javascript
-
-<h1>WEBCMD command prompt</h1>
-<h2>type 'help' for a list of avalible commands!</h2>
-
-<input id='input1' onkeydown="if (event.keyCode == 13) { document.getElementById('enterbtn').click() }"></input>
-<button onclick=docmd() id='enterbtn'>enter</button>
-
-<p id='output'></p>
-
-<script src='./webcmd.js'></script>
+a command line written in html and js
